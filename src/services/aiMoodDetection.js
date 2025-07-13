@@ -95,7 +95,6 @@ function findClosestMood(suggestedMood, availableMoods) {
     'relaxed': 'calm',
     'thankful': 'grateful',
     'appreciative': 'grateful',
-    'stressed': 'overwhelmed',
     'busy': 'overwhelmed'
   };
 

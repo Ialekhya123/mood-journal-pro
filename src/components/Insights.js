@@ -19,7 +19,7 @@ const CUSTOM_COLORS = [
 export default function Insights() {
   const { entries } = useJournal();
   const { tags } = useMoodTags();
-  const { streaks, xp, level, achievements, ACHIEVEMENTS, LEVEL_XP } = useGamification();
+  const { streaks, xp, level, achievements, ACHIEVEMENTS } = useGamification();
 
   // Assign a color for each mood (preset or custom)
   function getColor(mood, idx) {
